@@ -54,7 +54,7 @@ public class MatterDaoJDBC implements MatterDao {
 
             PreparedStatement st = null;
             try {
-                st = conn.prepareStatement("update department " +
+                st = conn.prepareStatement("update matter " +
                         "set Name = ? " +
                         "where Id = ?");
 
@@ -102,14 +102,14 @@ public class MatterDaoJDBC implements MatterDao {
             ResultSet rs = null;
             try{
                 st = conn.prepareStatement("" +
-                        "select * from department " +
+                        "select * from matter " +
                         "where Id = ?");
 
                 st.setInt(1, id);
                 rs = st.executeQuery();
                 if (rs.next()){
-                    Matter dep = instantiateMatter(rs);
-                    return dep;
+                    Matter mat = instantiateMatter(rs);
+                    return mat;
 
                 }
                 return null;
@@ -123,10 +123,10 @@ public class MatterDaoJDBC implements MatterDao {
         }
 
         private Matter instantiateMatter(ResultSet rs) throws SQLException {
-            Matter dep = new Matter();
-            dep.setId(rs.getInt("Id"));
-            dep.setName(rs.getString("Name"));
-            return dep;
+            Matter mat = new Matter();
+            mat.setId(rs.getInt("Id"));
+            mat.setName(rs.getString("Name"));
+            return mat;
         }
 
         @Override
@@ -136,7 +136,7 @@ public class MatterDaoJDBC implements MatterDao {
             ResultSet rs = null;
             try{
                 st = conn.prepareStatement("" +
-                        "select * from department "+
+                        "select * from matter "+
                         "order by Name");
 
                 rs = st.executeQuery();
@@ -146,14 +146,14 @@ public class MatterDaoJDBC implements MatterDao {
 
                 while (rs.next()){
 
-                    Matter dep = map.get(rs.getInt("Id"));
+                    Matter mat = map.get(rs.getInt("Id"));
 
-                    if (dep == null){
-                        dep = instantiateMatter(rs);
-                        map.put(rs.getInt("Id"), dep);
+                    if (mat == null){
+                        mat = instantiateMatter(rs);
+                        map.put(rs.getInt("Id"), mat);
                     }
 
-                    list.add(dep);
+                    list.add(mat);
 
                 }
                 return list;

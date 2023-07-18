@@ -13,10 +13,11 @@ public class Formula implements Serializable {
     public Formula(){
     }
 
-    public Formula(Integer id, String name, String descformula){
+    public Formula(Integer id, String name, String descformula, Matter matter){
         this.id = id;
         this.name = name;
         this.descformula = descformula;
+        this.matter = matter;
     }
 
     public Integer getId() {return id;}
@@ -28,6 +29,12 @@ public class Formula implements Serializable {
     public String getDescformula() {return descformula;}
 
     public void setDescformula(String descformula) {this.descformula = descformula;}
+
+    public Matter getMatter(){return matter;}
+
+    public void setMatter(Matter matter){this.matter = matter;}
+
+
 
     @Override
     public boolean equals(Object o) {
@@ -59,6 +66,7 @@ public class Formula implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", descformula='" + descformula +
+                ", matter ='" + matter +
                 '}';
     }
 }

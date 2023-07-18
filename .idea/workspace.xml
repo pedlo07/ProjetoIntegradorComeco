@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Commit" />
+    <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Aplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Aplication/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MainViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MatterListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/listeners/DataChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/FormulaDaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/exeption/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/FormulaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/MatterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MatterFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MatterFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/FormulaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/FormulaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/MatterDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/MatterDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/entities/Formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Formula.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Programação/ContasFX&quot;
   }
 }</component>
@@ -57,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689020136254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1689124691694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689124691694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1689124730084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689124730084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

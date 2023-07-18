@@ -13,4 +13,6 @@ public interface FormulaDao {
 
     List<Formula> findAll();
     List<Formula> findByMatter(Matter matter);
+
+    List<Formula> findByDepartment(Matter matter);
 }
