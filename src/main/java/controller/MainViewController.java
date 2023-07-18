@@ -10,7 +10,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 
 import javafx.scene.layout.VBox;
-import application.Main;
+import Aplication.Main;
 import gui.util.Alerts;
 import model.service.MatterService;
 import model.service.FormulaService;

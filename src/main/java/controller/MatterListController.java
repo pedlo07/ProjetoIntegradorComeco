@@ -13,7 +13,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import application.Main;
+import Aplication.Main;
 import db.DbException;
 import db.DbIntegrityException;
 import gui.listeners.DataChangeListener;
