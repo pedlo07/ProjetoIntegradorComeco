@@ -21,7 +21,7 @@ import model.service.FormulaService;
 import java.net.URL;
 import java.util.*;
 
-public class FormulaFormController implements Initializable {
+public class  FormulaFormController implements Initializable {
 
     private Formula entity;
 
@@ -67,6 +67,10 @@ public class FormulaFormController implements Initializable {
     private Button btCancel;
 
     private ObservableList<Matter> obsList;
+
+    public FormulaFormController(TextField txtId) {
+        this.txtId = txtId;
+    }
 
 
     public void setFormula(Formula entity){

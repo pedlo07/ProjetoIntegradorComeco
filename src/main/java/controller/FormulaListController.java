@@ -61,7 +61,6 @@ public class FormulaListController implements Initializable, DataChangeListener 
         Formula obj = new Formula();
         createDialogForm(obj,"/gui/FormulaForm.fxml", parentStage);
     }
-
     public void setFormulaService(FormulaService service){
         this.service = service;
     }

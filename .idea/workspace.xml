@@ -5,27 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9276e55-0973-4cd8-9247-c04a6c316d67" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aplication/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MainViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MatterListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/listeners/DataChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/FormulaDaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/exeption/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/FormulaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/MatterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/About.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/FormulaList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/MatterList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MatterFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MatterFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/FormulaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/FormulaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/impl/MatterDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/impl/MatterDaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/entities/Formula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/entities/Formula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FormulaFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FormulaListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/senac/projetointegradorcomeco/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programação/ContasFX&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Pedro e Gu/Documents/GitHub/ProjetoIntegradorComeco/src/main/resources/com/senac/projetointegradorcomeco",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro e Gu\Documents\GitHub\ProjetoIntegradorComeco\src\main\resources\com\senac\projetointegradorcomeco" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Aplication.Main">
     <configuration name="Aplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aplication.Main" />
@@ -85,9 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplication.View" />
+      <module name="ProjetoIntegradorComeco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Aplication.Main" />
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
